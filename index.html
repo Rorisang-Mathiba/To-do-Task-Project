@@ -62,5 +62,20 @@
       <button class="filter-btn" data-filter="pending">Pending</button>
       <button class="filter-btn" data-filter="completed">Completed</button>
     </div>
+
+    <!-- Main task list container -->
+    <div class="task-section">
+      <!-- This is where individual tasks will be dynamically added -->
+      <ul class="task-list" id="taskList">
+        <!-- Tasks will be inserted here by JavaScript -->
+      </ul>
+
+      <!-- Empty state message when no tasks exist -->
+      <div class="empty-state" id="emptyState">
+        <i class="fas fa-clipboard-list"></i>
+        <h3>No tasks yet!</h3>
+        <p>Add your first task above to get started</p>
+      </div>
+    </div>
   </body>
 </html>
