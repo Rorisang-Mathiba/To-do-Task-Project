@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container">
+          <!-- Header section with app title and branding -->
         <header class="app-header">
             <h1 class="app-title">
                 <i class="fas fa-heart"></i>
@@ -19,12 +20,32 @@
             <p class="app-subtitle">Organise your day with style</p>
 
         </header>
+         <!-- Task input section - where users add new tasks -->
         <div class="input-section">
             <input type="text" id="taskInput" placeholder="What would you like to accomplish today?" maxlength="100">
+               <!-- Button to add new tasks -->
             <button class="add-btn" id="addBtn">
                 <i class="fas fa-plus"></i>
             </button>
         </div>
     </div>
+
+    <!-- Statistics section showing task counts -->
+     <div class="stats-section">
+        <div class="stat-item">
+            <span class="stat-number" id="totalTasks">
+                0
+            </span>
+            <span class="stat-label">Total Tasks</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="completedTasks">0</span>
+            <span class="stat-label">Completed</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" id="pendingTasks">0</span>
+            <span class="stat-label">Pending</span>
+        </div>
+     </div> 
 </body>
 </html>
