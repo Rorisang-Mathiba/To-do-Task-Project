@@ -381,7 +381,7 @@ function updateStatistics() {
 
   // Update the display with smooth number animation
   animateNumber(totalTasksSpan, total);
-  animateNumber(completedTask, completed);
+  animateNumber(completedTasksSpan, completed);
   animateNumber(pendingTasksSpan, pending);
 
   console.log(
